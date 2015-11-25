@@ -1,8 +1,9 @@
 <?php
 
-use Reverb\SiteConfig;
+namespace Site\Components;
 
-include(SiteConfig::REVERB_ROOT."/system/componentbase.php");
+use Reverb\System\ComponentBase;
+use Site\Models\HouseholdRepository;
 
 class Hello extends ComponentBase
 {

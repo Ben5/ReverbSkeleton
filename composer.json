@@ -1,0 +1,26 @@
+{
+    "name": "bensmith/reverbSkeleton",
+
+    "description": "Skeleton app for Reverb",
+
+    "license": "proprietary",
+
+    "authors": [
+        {
+            "name": "Ben",
+            "email": "ben-smith@blueyonder.co.uk"
+        }
+    ],
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.zendframework.com/"
+        }
+    ],
+
+    "require": {
+        "zendframework/zend-db": "2.*",
+        "zendframework/zend-stdlib": "2.*"
+    }
+}
